@@ -2,7 +2,7 @@
 
 # The Internship Network in the Mathematical Sciences
 ## Workshop #1 - Introduction to Python and its Scientific Software Stack
-This material is part of the INMAS Workshop Series.
+This material is part of the INMAS training Workshop Series.
 
 This Workshop is a basic introduction to Scientific Python which will lay the
 foundations required for the rest of the INMAS program.
@@ -15,7 +15,7 @@ proficiency can each learn and be challenged.
 This is achieved by interweaving more advanced concepts with simple ones,
 and with more advanced, optional exercices for the more proficient students.
 
-We anticipate that you will have sufficient time to assimilate core parts of the training during the Workshop.
+We anticipate that you will have sufficient time to assimilate the core parts of the training during the Workshop.
 We suggest you revisit these notebooks at a later time.
 This will help you assimilate the material and ensure a continuity in practicing a new programming language.
 
@@ -29,7 +29,6 @@ The Workshop is structured as follows:
 | **4. Scientific Python** | 14 to 19 | Exercises 14 to 19 |
 | **5. Additional Topics** | 20 and 21 | Exercises 21 and Mini-Project 20 |
 | **6. Final Project** | 22 | Project 22 |
-|
 
 All learning notebooks are written with the RISE extension allowing to follow the material through slides.
 These notebooks start with the letter *N*. Each of these notebooks have associated exercises stored in notebooks
@@ -44,7 +43,8 @@ A first version of this course was developed by Emily Shinkle, Shinhae Park, Adr
 Luke Leisman, Martin Lacasse, and many Teaching Assistants (TAs) who have provided valuable feedback and improvements.
 Current version is the result of a significant overhaul done by Martin Lacasse in 2024,
 reorganizing, adding, and removing material and exercises,
-and restructuring the workshop to be more suitable for a flipped classroom approach.
+and restructuring the workshop to be more adaptable to the students' and instructors' needs.
+This includes using the material for individual learning, as well as for standard or flipped classroom approaches.
 
 While a good fraction of the modules have original content, some material
 was taken, borrowed, inspired, from the following open-source projects:
@@ -62,7 +62,7 @@ was taken, borrowed, inspired, from the following open-source projects:
 
 -----------------------------------
 # Anaconda Starter
-The material of this workshop is based on using Jupyter notebooks. We will first describe how to get a proper installation of Anaconda, an open-source package manager and Python distribution that includes a suite of useful packages (in addition to basic Python) pre-installed, as well as package management tools. This package manager provides an easy way to install additional Python packages that you might need in addition to the most popular packages. Don't worry however: most if not all Python packages needed for the first workshop are included in the default distribution.
+The material for this workshop relies on using Jupyter notebooks. We will first describe how to get a proper installation of Anaconda, an open-source package manager and Python distribution that includes a suite of useful packages (in addition to basic Python) pre-installed, as well as package management tools. Anaconda provides an easy way to install additional Python packages that you might need in addition to the most popular packages. Don't worry however: most if not all Python packages needed for the first workshop are included in the default distribution.
 
 ## Introduction
 
