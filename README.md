@@ -26,8 +26,8 @@ The Workshop is structured as follows:
 | **1. Introduction to Python** | 00 to 03 | Exercises 00 to 03|
 | **2. Python Fundamentals** | 04 to 09 | Exercises 00 to 08 and Mini-Project 09 |
 | **3. Intermediate Concepts** | 10 to 13 | Exercises 10 to 13 |
-| **4. Scientific Python** | 14 to 20 | Exercises 14 to 19 and Mini-Project 20 |
-| **5. Seaborn** | 21 | Exercises 21 |
+| **4. Scientific Python** | 14 to 19 | Exercises 14 to 19 |
+| **5. Additional Topics** | 20 and 21 | Exercises 21 and Mini-Project 20 |
 | **6. Final Project** | 22 | Project 22 |
 |
 
