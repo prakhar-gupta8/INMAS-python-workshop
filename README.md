@@ -4,29 +4,40 @@
 ## Workshop #1 - Introduction to Python
 This material is part of the INMAS Workshop Series.
 
-This Workshop is a basic introduction to Python which will lay the foundations required for the rest of the INMAS program.
+This Workshop is a basic introduction to Scientific Python which will lay the
+foundations required for the rest of the INMAS program.
 Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application.
 This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., Excel), and interfaces (e.g., the web or the operating system).
 
 This workshop is aimed at beginner students as well as students with intermediate proficiency.
-The material in this workshop is adjusted so that both level of students can learn.
+The material in this workshop is adjusted so that a group of students with different levels of
+proficiency can each learn and be challenged.
 This is achieved by interweaving more advanced concepts with simple ones,
 and with more advanced, optional exercices for the more proficient students.
 
 We anticipate that you will have sufficient time to assimilate core parts of the training during the Workshop.
-For beginners, we suggest you revisit these notebooks at a later time.
+We suggest you revisit these notebooks at a later time.
 This will help you assimilate the material and ensure a continuity in practicing a new programming language.
 
-| *Notebook* | 	*Content* | *Estimated core time* | *Optional time* |
-| ---------| --------------------------| --------| ------ |
+| *Part* | *Notebooks* |  *Projects* |
+| ---------| --------------------------|  ---|
+| **1. Introduction to Python** | 00 to 03 | Exercises 00 to 03|
+| **2. Python Fundamentals** | 04 to 09 | Exercises 00 to 08 and Mini-Project 09 |
+| **3. Intermediate Concepts** | 10 to 13 | Exercises 10 to 13 |
+| **4. Scientific Python** | 14 to 20 | Exercises 14 to 19 and Mini-Project 20 |
+| **5. Seaborn** | 21 | Exercises 21 |
+| **6. Final Project** | 22 | Project 22 |
+| 
 
 ### Credits
-The first version of this course was developed by Emily Shinkle, Shinhae Park, Adriana Morales Miranda, Luke Leisman, and many Teaching Assistants who have provided valuable feedback and improvements.
-Contents was significantly overhauled by Martin Lacasse in 2024, adding and removing material and exercises,
-and reorganizing the structure of the workshop to be suitable for a flipped classroom approach.
+A first version of this course was developed by Emily Shinkle, Shinhae Park, Adriana Morales Miranda,
+Luke Leisman, and many Teaching Assistants (TAs) who have provided valuable feedback and improvements.
+Current version is the result of a significant overhauled done by Martin Lacasse in 2024:
+reorganizing, adding, and removing material and exercises,
+and restructuring the workshop to be suitable for a flipped classroom approach.
 
 While a good fraction of the modules have original content, some material
-was taken, borrowed, inspired, from the following sources:
+was taken, borrowed, inspired, from the following open-source projects:
 - For material in the Primers modules
 	- [Software Carpentry](https://software-carpentry.org)
 	- [Notebook Community](notebook.community)
@@ -36,6 +47,8 @@ was taken, borrowed, inspired, from the following sources:
 	- [JR Johansson](https://github.com/jrjohansson/scientific-python-lectures)
 - Debugging
 	- [Spiro Sideris](https://github.com/spiside/pdb-tutorial)
+- Scientific Python
+    - [Fedor Iskhakov](https://github.com/fediskhakov/CompEcon)
 
 -----------------------------------
 # Anaconda Starter
