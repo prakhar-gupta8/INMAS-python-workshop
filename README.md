@@ -1,7 +1,7 @@
-<img src="images/inmas.png" width=130x align='right' \>
+<img src="images/inmas.png" width=130x align="right" >
 
 # The Internship Network in the Mathematical Sciences
-## Workshop #1 - Introduction to Python
+## Workshop #1 - Introduction to Python and its Scientific Software Stack
 This material is part of the INMAS Workshop Series.
 
 This Workshop is a basic introduction to Scientific Python which will lay the
@@ -9,7 +9,7 @@ foundations required for the rest of the INMAS program.
 Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application.
 This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., Excel), and interfaces (e.g., the web or the operating system).
 
-This workshop is aimed at beginner students as well as students with intermediate proficiency.
+This workshop is aimed at beginner students as well as students with more advanced proficiency.
 The material in this workshop is adjusted so that a group of students with different levels of
 proficiency can each learn and be challenged.
 This is achieved by interweaving more advanced concepts with simple ones,
@@ -19,7 +19,9 @@ We anticipate that you will have sufficient time to assimilate core parts of the
 We suggest you revisit these notebooks at a later time.
 This will help you assimilate the material and ensure a continuity in practicing a new programming language.
 
-| *Part* | *Notebooks* |  *Projects* |
+The Workshop is structured as follows:
+
+| *Learning Block* | *Notebooks* |  *Exercises and Projects* |
 | ---------| --------------------------|  ---|
 | **1. Introduction to Python** | 00 to 03 | Exercises 00 to 03|
 | **2. Python Fundamentals** | 04 to 09 | Exercises 00 to 08 and Mini-Project 09 |
@@ -27,14 +29,22 @@ This will help you assimilate the material and ensure a continuity in practicing
 | **4. Scientific Python** | 14 to 20 | Exercises 14 to 19 and Mini-Project 20 |
 | **5. Seaborn** | 21 | Exercises 21 |
 | **6. Final Project** | 22 | Project 22 |
-| 
+|
+
+All learning notebooks are written with the RISE extension allowing to follow the material through slides.
+These notebooks start with the letter *N*. Each of these notebooks have associated exercises stored in notebooks
+starting with the letter *X* and with the same sequence number and title. Exercise notebooks
+are not written with the RISE extension, except for the first one (00).
+
+These notebooks are anticipated to be read with the *classic* Jupyter Notebook, i.e., not JupyterLab nor Google's Colab.
+This is because the RISE extension is still not fully functional and debugged on these platforms.
 
 ### Credits
 A first version of this course was developed by Emily Shinkle, Shinhae Park, Adriana Morales Miranda,
-Luke Leisman, and many Teaching Assistants (TAs) who have provided valuable feedback and improvements.
-Current version is the result of a significant overhauled done by Martin Lacasse in 2024:
+Luke Leisman, Martin Lacasse, and many Teaching Assistants (TAs) who have provided valuable feedback and improvements.
+Current version is the result of a significant overhaul done by Martin Lacasse in 2024,
 reorganizing, adding, and removing material and exercises,
-and restructuring the workshop to be suitable for a flipped classroom approach.
+and restructuring the workshop to be more suitable for a flipped classroom approach.
 
 While a good fraction of the modules have original content, some material
 was taken, borrowed, inspired, from the following open-source projects:
@@ -91,11 +101,13 @@ You should then get something like this:
 
 ![Conda info](images/Picture3.png)
 
-Make sure that the versions of both Python and *conda* match the version described above and in this window. At the time of this writing, conda version is 23.7.4 with Python being 3.11.4.final. The command
+Make sure that the versions of both Python and *conda* are near the latest versions. At the time of this writing, conda version is 24.9.0 with Python being 3.11.7.final.
+The command
 
 `conda list`
 
-will list all the packages installed on your computer and their version numbers. Notice that the packages contain matplotlib, numpy, pandas, and seaborn packages that we will learn about and use during the training. A successful installation should have a large number of packages available (including those mentioned) and should have the proper versions listed above.
+will list all the packages installed on your computer and their version numbers. Notice that the packages contain matplotlib, numpy, pandas, and seaborn packages that we will learn about and use during the training.
+A successful installation should have a large number of packages available (including those mentioned) and should have the proper versions listed above.
 
 ## Opening the Anaconda Navigator
 
@@ -125,11 +137,11 @@ The navigator can be used to start many applications. Those of interest to us ar
 
 The notebooks for the Workshop are available from github (right where you now are :-). You can download the material for the workshop at:
 
-[https://github.com/INMAS-Math/Workshop-01.git](https://github.com/INMAS-Math/Workshop-01.git)
+[https://github.com/INMAS-Math/Workshop-V-01.git](https://github.com/INMAS-Math/Workshop-V-01.git)
 
 Click on the code icon to get a zip file containing all the material. Alternatively, you can use a command line and `git` to clone the code as follows:
 
-`git download https://github.com/INMAS-Math/Workshop-01.git`
+`git download https://github.com/INMAS-Math/Workshop-V-01.git`
 
 Note that if you were a contributor to the code, you would use `clone` instead of download. This would transfer all the metadata to your computer and allow you to push changes that you make to the code. 
 
