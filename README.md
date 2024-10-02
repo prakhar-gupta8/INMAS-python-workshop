@@ -4,22 +4,22 @@
 ## Workshop #1 - Introduction to Python and its Scientific Software Stack
 This material is part of the INMAS training Workshop Series.
 
-This Workshop is a basic introduction to Scientific Python which will lay the
+This Workshop is a basic introduction to Scientific Python which lays the
 foundations required for the rest of the INMAS program.
 Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application.
 This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., Excel), and interfaces (e.g., the web or the operating system).
 
 This workshop is aimed at beginner students as well as students with more advanced proficiency.
-The material in this workshop is adjusted so that a group of students with different levels of
+The material in this workshop is adjusted so that students with different levels of
 proficiency can each learn and be challenged.
 This is achieved by interweaving more advanced concepts with simple ones,
-and with more advanced, optional exercices for the more proficient students.
+and providing more advanced, optional exercices for the most proficient students.
 
-We anticipate that you will have sufficient time to assimilate the core parts of the training during the Workshop.
-We suggest you revisit these notebooks at a later time.
-This will help you assimilate the material and ensure a continuity in practicing a new programming language.
+We anticipate that students will have sufficient time to assimilate the core parts of the training during the Workshop.
+We suggest students revisit these notebooks at a later time.
+This will help assimilating the material and ensure a continuity in practicing a new programming language.
 
-The Workshop is structured as follows:
+The Workshop is structured in 6 parts as follows:
 
 | *Learning Block* | *Notebooks* |  *Exercises and Projects* |
 | ---------| --------------------------|  ---|
@@ -31,11 +31,12 @@ The Workshop is structured as follows:
 | **6. Final Project** | 22 | Project 22 |
 
 All learning notebooks are written with the RISE extension allowing to follow the material through slides.
-These notebooks start with the letter *N*. Each of these notebooks have associated exercises stored in notebooks
-starting with the letter *X* and with the same sequence number and title. Exercise notebooks
-are not written with the RISE extension, except for the first one (00).
+These notebooks start with the letter *N*. Each of these notebooks have an associated exercise notebook
+named with the starting letter *X* and with the same sequence number and title. Exercise notebooks
+are not written with the RISE extension, except for the first one (00). They are meant to be completed
+by the student in normal viewing mode.
 
-These notebooks are anticipated to be read with the *classic* Jupyter Notebook, i.e., not JupyterLab nor Google's Colab.
+All notebooks are anticipated to be read with the *classic* Jupyter Notebook, i.e., not JupyterLab nor Google's Colab.
 This is because the RISE extension is still not fully functional and debugged on these platforms.
 
 ### Credits
