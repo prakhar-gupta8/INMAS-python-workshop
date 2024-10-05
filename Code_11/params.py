@@ -24,6 +24,7 @@ def readParameters(filename):
         pythoncode = "myDico['" + variable + "']='" + value + "'"
         exec(pythoncode)
 
+    file.close()
     return myDico
 
 def printParameters(dico, file=sys.stdout):

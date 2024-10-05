@@ -11,7 +11,7 @@ def fibonacci (n):
         return ( fibonacci( n-1 )
                 + fibonacci( n-2 )  )
 def fiboSequence1 ( uppern ):
-    '''   Return Fibonacci sequence. Recursion is cute, but not efficient in this case.   '''
+    '''   Return Fibonacci sequence as a list. Recursion is cute, but not efficient in this case.   '''
     assert uppern>0
     seq=[]
     for  i in   range(uppern):
@@ -19,7 +19,7 @@ def fiboSequence1 ( uppern ):
     return(seq)
 
 def fiboSequence2 (uppern):
-    '''   Return Fibonacci sequence. Direct computation.  '''
+    '''   Return Fibonacci sequence as a list. Direct computation.  '''
     assert uppern>0
     seq=[0,1]
     if uppern<=2:
