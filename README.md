@@ -41,7 +41,7 @@ This is because the RISE extension is still not fully functional and debugged on
 
 ### Credits
 A first version of this course was developed by Emily Shinkle, Shinhae Park, Adriana Morales Miranda,
-Luke Leisman, Martin Lacasse, and many Teaching Assistants (TAs) who have provided valuable feedback and improvements.
+Luke Leisman, Martin Lacasse, and many teaching assistants (TAs) who have provided valuable feedback and improvements.
 Current version is the result of a significant overhaul done by Martin Lacasse in 2024,
 reorganizing, adding, and removing material and exercises,
 and restructuring the workshop to be more adaptable to the students' and instructors' needs.
