@@ -4,6 +4,11 @@
 ## Workshop #1 - Introduction to Python and its Scientific Software Stack
 This material is part of the INMAS training Workshop Series.
 
+This repository contains the learning material and the exercise Notebooks that are part of the Workshop. Convention used:
+- **N**:  Files starting with *N* present the material to learn and use the RISE extension
+- **X**:  Files starting with *X* contain exercises associated with the material notebook having with the same number and name. These exercises are meant to be solved using jupyter, with the assistance of a command line terminal for some exercises.
+- **Z**:  Files starting with *Z* contain the solutions to the exercises. For obvious reasons, they are distributed separately from the *N* and *X* files. 
+
 This Workshop is a basic introduction to Scientific Python which lays the
 foundations required for the rest of the INMAS program.
 Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application.
