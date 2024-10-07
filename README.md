@@ -6,7 +6,7 @@ This material is part of the INMAS training Workshop Series.
 
 This repository contains the learning material and the exercise Notebooks that are part of the Workshop. Convention used:
 - **N**:  Files starting with *N* present the material to learn in jupyter notebooks and use the RISE extension for viewing them
-- **X**:  Files starting with *X* contain exercises associated with the material notebook having with the same number and name. These exercises are meant to be solved using jupyter, with the assistance of a command line terminal for some exercises.
+- **X**:  Files starting with *X* contain exercises associated with the material notebook with the same number and name. These exercises are meant to be solved using jupyter, with the assistance of a command line terminal for some exercises.
 - **Z**:  Files starting with *Z* contain the solutions to the exercises. For obvious reasons, they are distributed separately from the *N* and *X* files. 
 
 This Workshop is a basic introduction to Scientific Python which lays the
