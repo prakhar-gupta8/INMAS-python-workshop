@@ -32,8 +32,8 @@ The Workshop is structured in 6 parts as follows:
 | **2. Python Fundamentals** | 04 to 09 | Exercises 00 to 08 and Mini-Project 09 |
 | **3. Intermediate Concepts** | 10 to 13 | Exercises 10 to 13 |
 | **4. Scientific Python** | 14 to 19 | Exercises 14 to 19 |
-| **5. Additional Topics** | 20 and 21 | Exercises 21 and Mini-Project 20 |
-| **6. Final Project** | 22 | Project 22 |
+| **5. Additional Topics** | 20 to 23 | Exercises 21 to 23 and Mini-Project 20 |
+| **6. Final Project** | 24 | Project 24 |
 
 All learning notebooks are written with the RISE extension allowing to follow the material through slides.
 These notebooks start with the letter *N*. Each of these notebooks have an associated exercise notebook
