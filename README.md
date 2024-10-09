@@ -65,6 +65,8 @@ was taken, borrowed, inspired, from the following open-source projects:
 	- [Spiro Sideris](https://github.com/spiside/pdb-tutorial)
 - Scientific Python
     - [Fedor Iskhakov](https://github.com/fediskhakov/CompEcon)
+- OpenAI
+    - [Kie Codes](https://github.com/kiecodes)
 
 -----------------------------------
 # Anaconda Starter
