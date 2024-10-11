@@ -17,7 +17,7 @@ This is because the RISE extension is still not either functional or fully debug
 This Workshop is a basic introduction to Scientific Python which lays the
 foundations required for the rest of the INMAS program.
 Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application.
-This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., Excel), and interfaces (e.g., the web or the operating system).
+This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., Excel), interfaces (e.g., the web or the operating system), and libraries.
 
 This workshop is aimed at beginner students as well as students with more advanced proficiency in Python.
 The material in this workshop is adjusted so that students with different levels of
@@ -143,7 +143,7 @@ The notebooks for the Workshop are available from github (right where you now ar
 
 [https://github.com/INMAS-Math/Workshop-V-01.git](https://github.com/INMAS-Math/Workshop-V-01.git)
 
-Click on the code icon to get a zip file containing all the material. Alternatively, you can use a command line and `git` to clone the code as follows:
+Click on the code icon to get a zip file containing all the material. Alternatively, you can use a command line and `git` to download the code as follows:
 
 `git download https://github.com/INMAS-Math/Workshop-V-01.git`
 
