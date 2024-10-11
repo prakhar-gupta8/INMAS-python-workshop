@@ -3,8 +3,9 @@
 # The Internship Network in the Mathematical Sciences
 ## Workshop #1 - Introduction to Python and its Scientific Software Stack
 This material is part of the INMAS training Workshop Series.
+This repository contains the learning material and the exercise Notebooks that are part of the Workshop.
 
-This repository contains the learning material and the exercise Notebooks that are part of the Workshop. Convention used:
+The convention used to name the notebooks is as follows:
 - **N-files** present the material to learn in Jupyter notebooks and use the RISE extension for viewing them
 - **X-Files** contain exercises associated with the material notebook with the same number and name. These exercises are meant to be solved using Jupyter, with the assistance of a command line terminal for some exercises.
 - **Z-files** contain the solutions to the exercises. For obvious reasons, they are distributed separately from the *N-* and *X-* files. 
@@ -14,7 +15,7 @@ foundations required for the rest of the INMAS program.
 Python has been selected as a language of choice due to its ubiquitous use in the industry and the reduced time, compared to other popular languages, for developing a prototype application.
 This is mainly thanks to the broad availibility of modules that were developed for the language, allowing to interface with many other programming languages (e.g., C), applications (e.g., Excel), and interfaces (e.g., the web or the operating system).
 
-This workshop is aimed at beginner students as well as students with more advanced proficiency.
+This workshop is aimed at beginner students as well as students with more advanced proficiency in Python.
 The material in this workshop is adjusted so that students with different levels of
 proficiency can each learn and be challenged.
 This is achieved by interweaving more advanced concepts with simple ones,
@@ -29,7 +30,7 @@ The Workshop is structured in 6 parts as follows:
 | *Learning Block* | *Notebooks* |  *Exercises and Projects* |
 | ---------| --------------------------|  ---|
 | **1. Introduction to Python** | 00 to 03 | Exercises 00 to 03|
-| **2. Python Fundamentals** | 04 to 09 | Exercises 00 to 08 and Mini-Project 09 |
+| **2. Python Fundamentals** | 04 to 09 | Exercises 04 to 08 and Mini-Project 09 |
 | **3. Intermediate Concepts** | 10 to 13 | Exercises 10 to 13 |
 | **4. Scientific Python** | 14 to 19 | Exercises 14 to 19 |
 | **5. Additional Topics** | 20 to 23 | Exercises 21 to 23 and Mini-Project 20 |
