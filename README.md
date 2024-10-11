@@ -12,7 +12,7 @@ are not written with the RISE extension, except for the first one (00). They are
 - **Z-files** contain the solutions to the exercises. For obvious reasons, they are distributed separately from the *N-* and *X-* files.
 
 All notebooks are anticipated to be read with the *classic* Jupyter Notebook, i.e., not JupyterLab nor Google's Colab.
-This is because the RISE extension is still not fully functional and debugged on these other platforms.
+This is because the RISE extension is still not either functional or fully debugged on these other platforms.
 
 This Workshop is a basic introduction to Scientific Python which lays the
 foundations required for the rest of the INMAS program.
