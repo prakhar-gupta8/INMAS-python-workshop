@@ -6,7 +6,7 @@ This material is part of the INMAS training Workshop Series.
 This repository contains the learning material and the exercise Notebooks that are part of the Workshop.
 
 The convention used to name the notebooks is as follows:
-- **N-files** present the material to learn in Jupyter notebooks and use the RISE extension for viewing them
+- **N-files** present the material to learn in Jupyter notebooks and use the RISE extension for viewing them.
 - **X-Files** contain exercises associated with the material notebook with the same sequence number and name. These exercises are meant to be solved using Jupyter, with the assistance of a command line terminal for some exercises.  Exercise notebooks
 are not written with the RISE extension, except for the first one (00). They are meant to be completed by the student in normal viewing mode.
 - **Z-files** contain the solutions to the exercises. For obvious reasons, they are distributed separately from the *N-* and *X-* files.
@@ -39,6 +39,14 @@ The Workshop is structured in 6 parts as follows:
 | **4. Scientific Python** | 14 to 19 | Exercises 14 to 19 |
 | **5. Additional Topics** | 20 to 23 | Exercises 21 to 23 and Mini-Project 20 |
 | **6. Final Project** | 24 | Project 24 |
+
+- Parts 1 to 4 are considered the core part of the training.
+- Part 5, *Additional Topics*, contains optional notebooks aimed
+at more advanced users. These notebooks cover topics like virtual environments, OpenAI, the Seaborn visualization package,
+and an additional mini-project. These notebooks can be viewed independently, except for a dependency of OpenAi on virtual environments.
+- Part 6. is a final project
+that is completed in teams of 5-6 students during the last part of the training. Teams present their results to each others
+during a 10 min presentation.
 
 ### Credits
 A first version of this course was developed by Emily Shinkle, Shinhae Park, Adriana Morales Miranda,
