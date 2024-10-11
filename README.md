@@ -7,8 +7,12 @@ This repository contains the learning material and the exercise Notebooks that a
 
 The convention used to name the notebooks is as follows:
 - **N-files** present the material to learn in Jupyter notebooks and use the RISE extension for viewing them
-- **X-Files** contain exercises associated with the material notebook with the same number and name. These exercises are meant to be solved using Jupyter, with the assistance of a command line terminal for some exercises.
-- **Z-files** contain the solutions to the exercises. For obvious reasons, they are distributed separately from the *N-* and *X-* files. 
+- **X-Files** contain exercises associated with the material notebook with the same sequence number and name. These exercises are meant to be solved using Jupyter, with the assistance of a command line terminal for some exercises.  Exercise notebooks
+are not written with the RISE extension, except for the first one (00). They are meant to be completed by the student in normal viewing mode.
+- **Z-files** contain the solutions to the exercises. For obvious reasons, they are distributed separately from the *N-* and *X-* files.
+
+All notebooks are anticipated to be read with the *classic* Jupyter Notebook, i.e., not JupyterLab nor Google's Colab.
+This is because the RISE extension is still not fully functional and debugged on these other platforms.
 
 This Workshop is a basic introduction to Scientific Python which lays the
 foundations required for the rest of the INMAS program.
@@ -35,15 +39,6 @@ The Workshop is structured in 6 parts as follows:
 | **4. Scientific Python** | 14 to 19 | Exercises 14 to 19 |
 | **5. Additional Topics** | 20 to 23 | Exercises 21 to 23 and Mini-Project 20 |
 | **6. Final Project** | 24 | Project 24 |
-
-All learning notebooks are written with the RISE extension allowing to follow the material through slides.
-These notebooks start with the letter *N*. Each of these notebooks have an associated exercise notebook
-named with the starting letter *X* and with the same sequence number and title. Exercise notebooks
-are not written with the RISE extension, except for the first one (00). They are meant to be completed
-by the student in normal viewing mode.
-
-All notebooks are anticipated to be read with the *classic* Jupyter Notebook, i.e., not JupyterLab nor Google's Colab.
-This is because the RISE extension is still not fully functional and debugged on these platforms.
 
 ### Credits
 A first version of this course was developed by Emily Shinkle, Shinhae Park, Adriana Morales Miranda,
