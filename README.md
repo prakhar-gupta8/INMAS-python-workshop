@@ -45,7 +45,7 @@ The Workshop is structured in 6 parts as follows:
 These notebooks cover topics like virtual environments, OpenAI, the Seaborn visualization package,
 and an additional mini-project. These notebooks can be viewed independently,
 except for a dependency of OpenAi on virtual environments.
-- Part 6. is a final project
+- Part 6 is a final project
 that is completed in teams of 5-6 students during the last part of the training.
 Teams present their results to each others during a 10 min presentation.
 
