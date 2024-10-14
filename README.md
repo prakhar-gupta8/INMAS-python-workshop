@@ -41,12 +41,22 @@ The Workshop is structured in 6 parts as follows:
 | **6. Final Project** | 24 | Project 24 |
 
 - Parts 1 to 4 are considered the core part of the training.
-- Part 5, *Additional Topics*, contains optional notebooks aimed
-at more advanced users. These notebooks cover topics like virtual environments, OpenAI, the Seaborn visualization package,
-and an additional mini-project. These notebooks can be viewed independently, except for a dependency of OpenAi on virtual environments.
+- Part 5, *Additional Topics*, contains optional notebooks aimed at more advanced users.
+These notebooks cover topics like virtual environments, OpenAI, the Seaborn visualization package,
+and an additional mini-project. These notebooks can be viewed independently,
+except for a dependency of OpenAi on virtual environments.
 - Part 6. is a final project
-that is completed in teams of 5-6 students during the last part of the training. Teams present their results to each others
-during a 10 min presentation.
+that is completed in teams of 5-6 students during the last part of the training.
+Teams present their results to each others during a 10 min presentation.
+
+Depending on their proficiency, students can chose different paths for learning the material
+during the workshop:
+
+<img src="images/PartFlow.png" width=800x align="center" >
+
+It is anticipated, however, that the material not covered during the workshop will be covered
+through independent study after the event. In particular, the *Seaborn* module is required
+for Workshop #2, and the *Virtual Environment* module for Workshop #3. 
 
 ### Credits
 A first version of this course was developed by Emily Shinkle, Shinhae Park, Adriana Morales Miranda,
@@ -86,9 +96,13 @@ Note: If you already have a preferred Python setup that allows you to run a Jupy
 
 ## Installation
 
-Installation of Anaconda is relatively straightforward, just go to this [link](http://anaconda.com/), and click the download icon
-![Download](images/Picture1.png)
-which should automatically detect your operating system. Else, you could look for the _Anaconda installers_ box at the bottom of the web page. At the time of this writing, the latest version is Anaconda 23.7.4 or 2023.07.2 using Python 3.11.
+Installation of Anaconda is relatively straightforward,
+just go to this [link](http://anaconda.com/download), and click the small *Skip registration*
+below the large *Sumbit* button.
+That should bring you to the *Anaconda Installers* download page which should have automatically detected your operating system.
+Just click the download icon
+![Download](images/Picture1.png).
+At the time of this writing, the latest version is Anaconda 2024.06.1 using Python 3.12.
 
 ![Anaconda Installers](images/Picture2.png)
 
@@ -100,12 +114,22 @@ There will be a few installation steps to click through - you can generally use 
 
 ### Upgrade
 
-If you already have a version of Anaconda installed, it is recommended that you upgrade it to the latest version. The simplest way to update is to uninstall your current version of Anaconda and start with a fresh install as described above, as updating using conda will not update your version of Python but rather will require the creation of a whole new environment based on the newer Python version. On Windows, uninstall the Anaconda application. On MacOS and Linux you can use anaconda-clean, or (not recommended) delete the entire anaconda3 directory located in you home directory before proceeding with a fresh install. If you would rather prefer to keep your existing Python installation, you can certainly do that, with the caveat that you might experience compatibility issues.
+If you already have a version of Anaconda installed, it is recommended that you upgrade it to the latest version.
+The simplest way to update is to uninstall your current version of Anaconda and start with a fresh install
+as described above, as updating using conda will not update your version of Python but rather will require
+the creation of a whole new environment based on the newer Python version.
+On Windows, uninstall the Anaconda application.
+On MacOS and Linux you can use anaconda-clean, or (not recommended) delete the entire anaconda3 directory
+located in you home directory before proceeding with a fresh install.
+If you would rather prefer to keep your existing Python installation,
+you can certainly do that, with the caveat that you might experience compatibility issues.
 
 
 ## Testing your Anaconda installation
 
-Checking the version of Anaconda and Python is relatively simple. First, open a terminal (shell) window (anaconda Prompt on Windows, Terminal on MacOS and Linux – more details below) and just type:
+Checking the version of Anaconda and Python is relatively simple.
+First, open a terminal (shell) window (anaconda Prompt on Windows, Terminal on MacOS
+and Linux – more details below) and just type:
 
 `conda info`
 
@@ -113,13 +137,16 @@ You should then get something like this:
 
 ![Conda info](images/Picture3.png)
 
-Make sure that the versions of both Python and *conda* are near the latest versions. At the time of this writing, conda version is 24.9.0 with Python being 3.11.7.final.
+Make sure that the versions of both Python and *conda* are near the latest versions. At the time of this writing, conda version is 24.9.0 with Python around 3.12.
 The command
 
 `conda list`
 
-will list all the packages installed on your computer and their version numbers. Notice that the packages contain matplotlib, numpy, pandas, and seaborn packages that we will learn about and use during the training.
-A successful installation should have a large number of packages available (including those mentioned) and should have the proper versions listed above.
+will list all the packages installed on your computer and their version numbers.
+Notice that the packages contain matplotlib, numpy, pandas, and seaborn
+packages that we will learn about and use during the training.
+A successful installation should have a large number of packages available
+(including those mentioned) and should have the proper versions listed above.
 
 ## Opening the Anaconda Navigator
 
@@ -137,7 +164,12 @@ Open your Finder and go to the *Applications* Folder, look for *Anaconda-Navigat
 
 ### Linux
 
-Open a terminal window and type *anaconda-navigator*. Those of you eager to learn Linux in the comfort of your Windows laptop should consider running the *Windows Subsystem for Linux* (WSL) available for free. This will allow you to run a full version of Linux (e.g., Ubuntu) within your Windows operating system. Really cool. More info [here](https://learn.microsoft.com/en-us/windows/wsl/install).
+Open a terminal window and type *anaconda-navigator*.
+Those of you eager to learn Linux in the comfort of your Windows laptop should consider running
+the *Windows Subsystem for Linux* (WSL) available for free.
+This will allow you to run a full version of Linux (e.g., Ubuntu)
+within your Windows operating system. Really cool.
+More info [here](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 Upon successfully opening the navigator you should see something resembling the following window. Be patient, it sometimes takes a while to load.
 
@@ -167,13 +199,33 @@ Start the anaconda navigator and launch the Jupyter Notebook interpreter by clic
 
 The Jupyter Notebook interpreter will start a virtual web server on your computer (localhost) that will be visualized through your default web browser.
 
-The opening page will show the files on your computer. By clicking on the directories, navigate to where you saved the notebooks from Workshop-01 of INMAS. As before, '..' stands for returning to the parent directory. Note that unlike other navigators (e.g., Explorer) a single click is necessary to open a directory.
+The opening page will show the files on your computer.
+By clicking on the directories, navigate to where you saved the notebooks from Workshop-01 of INMAS.
+As before, '..' stands for returning to the parent directory.
+Note that unlike other navigators (e.g., Explorer) a single click is necessary to open a directory.
 
-Jupyter notebooks end with the *.ipynb* file extension. Clicking on the desired file will open the Jupyter Notebook interpreter of that file in a different tab of your browser. These notebooks contain intructions as well as code that can be edited and run. Boxes starting with the *In [  ]* keyword are called *code cells*; they are a block of Python code input waiting to be run. Other boxes, called *markdown cells*, are meant to give instructions. The number between brackets keeps track of the instruction numbers, showing the sequence of the instructions that were run, possibly out of order. A cell generating output will have an *Out[  ]* with an associated sequence number in the brackets. An entire notebook can be reset by restarting the kernel and clearing all output and the state of all variables. This is done through selecting *Restart and Clear Output* under the *Kernel* tab.
+Jupyter notebooks end with the *.ipynb* file extension.
+Clicking on the desired file will open the Jupyter Notebook interpreter of that file in a different
+tab of your browser.
+These notebooks contain intructions as well as code that can be edited and run.
+Boxes starting with the *In [  ]* keyword are called *code cells*;
+they are a block of Python code input waiting to be run.
+Other boxes, called *markdown cells*, are meant to give instructions.
+The number between brackets keeps track of the instruction numbers, showing the sequence
+of the instructions that were run, possibly out of order.
+A cell generating output will have an *Out[  ]* with an associated sequence number in the brackets.
+An entire notebook can be reset by restarting the kernel and clearing all output and the state of all variables.
+This is done through selecting *Restart and Clear Output* under the *Kernel* tab.
 
 ![Header](images/Picture7.png)
 
-To run a block of code, click on the box and the surrounding perimeter of that box will turn green, indicating that it is ready to run with hitting *Crtl-Enter*. Alternatively, *Shift-Enter* will achieve the same result, except that the mouse focus will jump to the next cell. Double-clicking on a markdown cell will switch the cell to the editing mode and show the raw (markdown) code for the text. Running the cell (*Ctrl-Enter*) will (re-)generate the nice text. Code cells, on the other end, can be edited directly once the mouse focus is on that cell (i.e., there is no need to double-click to edit those cells).
+To run a block of code, click on the box and the surrounding perimeter of that box will turn green,
+indicating that it is ready to run with hitting *Crtl-Enter*.
+Alternatively, *Shift-Enter* will achieve the same result, except that the mouse focus will jump to the next cell.
+Double-clicking on a markdown cell will switch the cell to the editing mode and show the raw (markdown) code
+for the text. Running the cell (*Ctrl-Enter*) will (re-)generate the nice text.
+Code cells, on the other end, can be edited directly once the mouse focus is on that cell
+(i.e., there is no need to double-click to edit those cells).
 
 The menu at the top of the page contains the main commands and will indicate the type of cell where the mouse is focusing. Clicking on run is another way to run the current cell, equivalent to *Shift-Enter*. It is also possible to run all the cells in the notebook by selecting *Run All* under the *Cell* heading. Notice all the shortcuts indicated in these menus, providing a keyboard alternative. Moreover, the *Help* tab contains a *User Interface Tour*, as well as reference to the Python langage and its most popular packages such as pandas and NumPy, for example. Use these references if needed. You should minimally read the *User Interface Tour* if you are new to Jupyter Notebook.
 
