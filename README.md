@@ -104,7 +104,7 @@ Just click the download icon
 ![Download](images/Picture1.png).
 At the time of this writing, the latest version is Anaconda 2024.06.1 using Python 3.12.
 
-![Anaconda Installers](images/Picture2.png)
+![Anaconda Installers](images/anacondaInstallers.png)
 
 There will be a few installation steps to click through - you can generally use the defaults. For detailed instructions, here are the particular OS installation guides:
 
